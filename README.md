@@ -13,5 +13,11 @@ You can also define your own sections, if you like, by using gcc declaration
 attributes, so the linker will gather the declarations together in your
 binary regardless of how spread out they were in the source.
 
+## Build and Test
+```shell
+$ make
+$ make check
+```
+
 ## Further Reading
 * [FizzBuzz with higher-order cpp macros and ELF linker sets](http://fanf.livejournal.com/134900.html)
