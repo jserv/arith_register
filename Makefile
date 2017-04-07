@@ -1,7 +1,8 @@
 OUT ?= build
 
 EXEC = \
-    $(OUT)/test-arith
+	test-arith
+EXEC := $(addprefix $(OUT)/,$(EXEC))
 
 all: $(EXEC)
 
