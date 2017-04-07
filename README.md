@@ -1,7 +1,7 @@
 # Introduction
 
-A simple program using ELF linker set to construct lists of provider
-automatically.
+A simple program using ELF linker set to construct lists of arithmetic
+implementations automatically.
 
 The linker takes collections of definitions, separates them into different
 sections (e.g. code and data), and concatenates each section into a
